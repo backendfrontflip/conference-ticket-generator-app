@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --clr-Neutral-0: hsl(0, 0%, 100%);
+  --clr-Neutral-300: hsl(252, 6%, 83%);
+  --clr-Neutral-500: hsl(245, 15%, 58%);
+  --clr-Neutral-700: hsl(245, 19%, 35%);
+  --clr-Neutral-900: hsl(248, 70%, 10%);
+  --clr-Orange-500: hsl(7, 88%, 67%);
+  --clr-Orange-700: hsl(7, 71%, 60%);
+  --clr-Gradient-text: hsl(7, 86%, 67%) to hsl(0, 0%, 100%);
+  --font-size: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  font-family: "Inconsolata", monospace;
+  background-color: var(--clr-Neutral-900);
+  color: var(--clr-Neutral-0);
+  min-height: 100vh;
+}
+
+.ticket-container {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
