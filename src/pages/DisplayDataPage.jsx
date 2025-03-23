@@ -70,13 +70,12 @@ const DisplayDataPage = () => {
         Back to Home
       </button>
 
-      <div className="mt-8 w-full text-center p-4 border rounded-full max-w-md">
-        Challenge by{" "}
-        <a href="https://www.frontendmentor.io?ref=challenge" className="text-blue-500">
-          Frontend Mentor
-        </a>. 
-        Coded by{" "}
-        <a href="#" className="text-blue-500">Space Cadet</a>.
+      <div className="mt-5 w-full text-center font-bold p-4 bg-orange-600 border rounded-full max-w-md">
+       Challenge by <span><a href="https://www.frontendmentor.io?ref=challenge" className="text-black border-orange-500 hover:bg-orange-700">
+        Frontend Mentor.
+        </a></span>
+        <p className="mt-2">Coded by <span><a href="https://backendfrontflip.github.io/spacecadetio/Socials/socials.html?fbclid=PAZXh0bgNhZW0CMTEAAabFp9fEE_4fLr7EkFU_A5yVvNfuzEC3uf6EDpOGaX00M3Lfiur2U9GGGxI_aem_B8FgTY0lbmdS6kxU0xSgGw" className="text-black border-orange-500 hover:bg-orange-700 ">Space Cadet.</a></span>
+        </p>
       </div>
     </div>
   );

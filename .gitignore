@@ -27,7 +27,6 @@ Thumbs.db
 .cache/
 out/
 build/
-public/
 
 # Misc
 *.log
