@@ -61,7 +61,7 @@ const UploadFile = ({ onImageUpload }) => {
         ) : (
           <>
             <img
-              src="/assets/images/icon-upload.svg"
+              src={`${import.meta.env.BASE_URL}assets/images/icon-upload.svg`}
               alt="Upload Icon"
               className="mx-auto mb-2 w-12"
             />

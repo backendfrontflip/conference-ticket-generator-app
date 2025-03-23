@@ -50,13 +50,10 @@ const FormEntry = ({ onFormSubmit }) => {
           <input
             type="text"
             id="fullName"
-            className={`border p-2 bg-transparent hover:bg-gray-700 cursor-pointer rounded-md ${
-              errors.fullName ? "border-red-500" : "border-gray-300"
-            }`}
+            className="border p-2 bg-transparent hover:bg-gray-700 cursor-pointer rounded-md"
             value={formData.fullName}
             onChange={handleChange}
           />
-          {errors.fullName && <p className="text-sm text-red-500 mt-1">{errors.fullName}</p>}
         </div>
 
         <div className="form-item flex flex-col">
@@ -64,13 +61,10 @@ const FormEntry = ({ onFormSubmit }) => {
           <input
             type="email"
             id="email"
-            className={`border p-2 bg-transparent rounded-md hover:bg-gray-700 cursor-pointer ${
-              errors.email ? "border-red-500" : "border-gray-300"
-            }`}
+            className="border p-2 bg-transparent rounded-md hover:bg-gray-700 cursor-pointer"
             value={formData.email}
             onChange={handleChange}
           />
-          {errors.email && <p className="text-sm text-red-500 mt-1">{errors.email}</p>}
         </div>
 
         <div className="form-item flex flex-col">
@@ -78,13 +72,10 @@ const FormEntry = ({ onFormSubmit }) => {
           <input
             type="text"
             id="github"
-            className={`border p-2 bg-transparent rounded-md hover:bg-gray-700 cursor-pointer ${
-              errors.github ? "border-red-500" : "border-gray-300"
-            }`}
+            className="border p-2 bg-transparent rounded-md hover:bg-gray-700 cursor-pointer"
             value={formData.github}
             onChange={handleChange}
           />
-          {errors.github && <p className="text-sm text-red-500 mt-1">{errors.github}</p>}
         </div>
       </div>
 
